@@ -1,3 +1,5 @@
+package src.MatadorGame;
+
 public class BankAccount {
 
     private int balance;
