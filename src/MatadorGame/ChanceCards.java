@@ -12,9 +12,8 @@ public class ChanceCards {
 
     }
 
+
     public String toString() {
-
-        return this.name + " " + this.Description;
-
+        return this.Description + " " + this.name + "\n";
     }
 }
