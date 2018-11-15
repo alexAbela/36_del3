@@ -33,6 +33,8 @@ public class ChanceCardDeck {
         Deck[19] = new ChanceCards("Move to a brown or yellow square, if no one owns it you get it for free, otherwise pay the owner rent.", "CHANCE");
 
         Shufflecards();
+
+        //Konstruktøren skal muligvis have fjernet sit navn og tilføjet en int værdi i stedet som vi kan bruge i case systemmet.
     }
 
     public void Shufflecards() {
@@ -54,14 +56,14 @@ public class ChanceCardDeck {
 
     public String DrawCard() {
         ChanceCards[] korttemp = this.Deck;
-        String firstCard = String.valueOf(this.Deck[0]);
         ChanceCards firstCardKort = this.Deck[0];
+
         for (int i = 0; i < Deck.length; i++) {
             this.Deck[i] = korttemp[(i + 1) % 20];
         }
         Deck[19] = firstCardKort;
-        return firstCard;
-    }
+        return "You drew " + firstCardKort;
+        }
 
     public String toString() {
         String output = "";
