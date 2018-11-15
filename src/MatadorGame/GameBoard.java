@@ -1,5 +1,5 @@
 package src.MatadorGame;
-
+/*
 public class GameBoard {
 
     private  Squares[] board;
@@ -41,4 +41,5 @@ public class GameBoard {
 
     }
 }
+*/
 

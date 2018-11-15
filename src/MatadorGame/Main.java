@@ -5,7 +5,7 @@ import gui_main.*;
 
 
 public class Main {
-
+    private static GUI g = new GUI();
     private static Object GUI_Board;
 
     public Main() {
@@ -15,10 +15,10 @@ public class Main {
         ChanceCardDeck game = new ChanceCardDeck();
 
         GUI.setNull_fields_allowed(true);
-
-
+        g.showMessage("Hello Rober, how are we today?");
 
     }
-}
+
+    }
 
 

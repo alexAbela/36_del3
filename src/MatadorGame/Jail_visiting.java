@@ -17,7 +17,7 @@ public class Jail_visiting extends Squares {
 
     public void gottojail() {
 
-        this.player position
+       // this.player position
 
     }
 
