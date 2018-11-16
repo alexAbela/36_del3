@@ -3,10 +3,12 @@ package src.MatadorGame;
 public class Squares {
 
     int position;
+    String name;
 
-    public Squares(int position) {
+    public Squares(int position, String name) {
 
         this.position = position;
+        this.name = name;
 
     }
 

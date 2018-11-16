@@ -7,14 +7,12 @@ public class Properties extends Squares {
     String colour;
     public boolean owned;
 
-public Properties(int position, int rent, int price, String colour, boolean owned) {
-
-    super(position);
+public Properties(int position, String name, int rent, int price, String colour, boolean owned) {
+        super(position, name);
     this.rent = rent;
     this.price = price;
     this.colour = colour;
     this.owned = owned;
-    this.owned = false;
 }
 
     @Override

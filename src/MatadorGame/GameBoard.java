@@ -1,5 +1,6 @@
-package src.MatadorGame;
 /*
+package src.MatadorGame;
+
 public class GameBoard {
 
     private  Squares[] board;
@@ -9,37 +10,34 @@ public class GameBoard {
 
         board = new Squares[24];
 
-                Squares[0] = new Start(0);
-                Squares[1] = new Properties(1, 2, 3, "Brown", false);
-                Squares[2] = new
-                Squares[3] = new
-                Squares[4] = new
-                Squares[5] = new
-                Squares[6] = new
-                Squares[7] = new
-                Squares[8] = new
-                Squares[9] = new
-                Squares[10] = new
-                Squares[11] = new
-                Squares[12] = new
-                Squares[13] = new
-                Squares[14] = new
-                Squares[15] = new
-                Squares[16] = new
-                Squares[17] = new
-                Squares[18] = new
-                Squares[19] = new
-                Squares[20] = new
-                Squares[21] = new
-                Squares[22] = new
-                Squares[23] = new
-
-
-
-
+                board[0] = new Start(0);
+                board[1] = new Properties(1, "Gatekjøkkenet \n Burgerbaren", 1,  3, "Brown", false);
+                board[2] = new Properties(2, "Pizzahuset \n Pizzeriaet", 1, 3, "Brown", false);
+                board[3] = new Chance_Square( 3, "Sjanse \n chance");
+                board[4] = new Properties(4, "Godtebutikken \n slikbutikken", 1, 3, "Lightblue", false);
+                board[5] = new Properties(5, " Iskiosken \n Iskiosken", 1, 3, "Lightblue", false);
+                board[6] = new Jail_visiting(6, "I Fengsel \n I fængsel");
+                board[7] = new Properties(7, "Museet \n Museet", 1, 3, "pink", false);
+                board[8] = new
+                board[9] = new
+                board[10] = new
+                board[11] = new
+                board[12] = new
+                board[13] = new
+                board[14] = new
+                board[15] = new
+                board[16] = new
+                board[17] = new
+                board[18] = new
+                board[19] = new
+                board[20] = new
+                board[21] = new
+                board[22] = new
+                board[23] = new
 
 
     }
 }
 */
+
 
